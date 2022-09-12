@@ -4,32 +4,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Boolando</title>
 </head>
 <body>
-    <header></header>
+    <header>
+        <nav class="container flexbox">
+            <ul class="flexbox">
+                <li><a href="#">Donna</a></li>
+                <li><a href="#">Uomo</a></li>
+                <li><a href="#">Bambino</a></li>
+            </ul>
+            <img src="./img/boolean-logo.png" alt="logo">
+            <ul class="flexbox">
+                        <li><a href="#"><i class="ri-user-line"></i></a></li>
+                        <li><a href="#"><i class="ri-heart-line"></i></a></li>
+                        <li><a href="#"><i class="ri-shopping-bag-fill"></i></a></li>
+                    </ul>
+        </nav>
+    </header>
 
 
-    <main>
-        <section class="row-flex">
-            <div class="col margin">
+    <main class="container flexbox">
+        <article>
+            <div class="image-box">
                 <span class="label">-50%</span>
-                <img src="./img/1.webp" alt="Primo capo">
+                <span class="label2">Sostenibilità</span>
+                <button class="hearth"><i class="ri-heart-fill"></i></button>
+                <img class="first" src="./img/1.webp" alt="capo 1">
+                <img class="second" src="./img/1b.webp" alt="capo 1">
             </div>
-            <div class="col margin">
-                <span class="label">-30%</span>
-                <img src="./img/2.webp" alt="Primo capo">
+            <div class="text-box">
+                <small>Levi's</small>
+                <p><strong>Relaxed Fit Tee Unisex</strong></p>
+                <div>
+                    <span class="price-sale">14,99€</span>
+                    <span class="price">22,99€</span>
+                </div>
             </div>
-            <div class="col margin">
-                <span class="label">-30%</span>
-                <img src="./img/3.webp" alt="Primo capo">
+        </article>
+        <article>
+            <div class="image-box">
+                <span class="label">-50%</span>
+                <button class="hearth"><i class="ri-heart-fill"></i></button>
+                <img class="first" src="./img/2.webp" alt="capo 2">
+                <img class="second" src="./img/2b.webp" alt="capo 1">
             </div>
-        </section>
+            <div class="text-box">
+                <small>Guess</small>
+                <p><strong>Roses Tee</strong></p>
+                <div>
+                    <span class="price-sale">20,99€</span>
+                    <span class="price">29,99€</span>
+                </div>
+            </div>
+        </article>
+        <article>
+            <div class="image-box">
+                <span class="label">-50%</span>
+                <button class="hearth"><i class="ri-heart-fill"></i></button>
+                <img class="first" src="./img/3.webp" alt="capo 3">
+                <img class="second" src="./img/3b.webp" alt="capo 1">
+            </div>
+            <div class="text-box">
+                <small>Come Zucchero Filato</small>
+                <p><strong>Voglia di colori pastello</strong></p>
+                <div>
+                    <span class="price-sale">129,99€</span>
+                    <span class="price">184,99€</span>
+                </div>
+            </div>
+    </article>
+
+    <article>
+        <div class="image-box">
+            <span class="label">-50%</span>
+            <span class="label2">Sostenibilità</span>
+            <button class="hearth"><i class="ri-heart-fill"></i></button>
+            <img class="first" src="./img/4.webp" alt="capo 3">
+            <img class="second" src="./img/4b.webp" alt="capo 1">
+        </div>
+        <div class="text-box">
+            <small>Levi's</small>
+            <p><strong>Tee Unisex</strong></p>
+            <div>
+                <span class="price-sale">14,99€</span>
+                <span class="price">20,99€</span>
+            </div>
+        </div>
+</article>
+<article>
+    <div class="image-box">
+        <button class="hearth"><i class="ri-heart-fill"></i></button>
+        <img class="first" src="./img/5.webp" alt="capo 3">
+        <img class="second" src="./img/5b.webp" alt="capo 1">
+    </div>
+    <div class="text-box">
+        <small>Maya Deluxe</small>
+        <p><strong>Stripe Bodice</strong></p>
+        <div>
+            <span class="price-sale">99,99€</span>
+        </div>
+    </div>
+</article>
+<article>
+    <div class="image-box">
+        <span class="label2">Sostenibilità</span>
+        <button class="hearth"><i class="ri-heart-fill"></i></button>
+        <img class="first" src="./img/6.webp" alt="capo 3">
+        <img class="second" src="./img/6b.webp" alt="capo 1">
+    </div>
+    <div class="text-box">
+        <small>Esprit</small>
+        <p><strong>Maglione - Black</strong></p>
+        <div>
+            <span class="price-sale">29,99€</span>
+        </div>
+    </div>
+</article>
+
     </main>
 
-
-
-    <footer></footer>
+    <footer>
+        <div class="container row-flex flexbox">
+            <div>
+                <h4>Boolando S.r.l</h4>
+                <small><a href="#">Informazioni legali</a></small>
+                <small><a href="#">Informativa sulla privacy</a></small>
+                <small><a href="#">Diritto di recesso</a></small>
+            </div>
+            <div class="social">
+                <h5>Trovaci anche su</h5>
+                <div>
+                    <i class="ri-twitter-fill"></i>
+                    <i class="ri-facebook-box-fill"></i>
+                    <i class="ri-instagram-fill"></i>
+                    <i class="ri-pinterest-fill"></i>
+                    <i class="ri-youtube-fill"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
+
+
